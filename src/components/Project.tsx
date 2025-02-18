@@ -1,4 +1,3 @@
-import React from "react";
 import mock09 from '../assets/images/profilePic.png';
 import mock10 from '../assets/images/profilePic.png';
 import '../assets/styles/Project.scss';
