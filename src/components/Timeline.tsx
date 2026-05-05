@@ -1,3 +1,4 @@
+import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
@@ -11,44 +12,67 @@ function Timeline() {
       <div className="items-container">
         <h1>Career History</h1>
         <VerticalTimeline>
+
+          {/* Current Job */}
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
-            contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="Dec 2023 - present"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            date="Jul 2025 - Present"
+            iconStyle={{ background: '#5000ca', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Frontend Developer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Cairo, Egypt</h4>
+            <h3 className="vertical-timeline-element-title">
+              React & React Native Developer
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Coligo | El-Maadi, Cairo
+            </h4>
             <p>
-            Developed and optimized web applications ,collaborating with GIS specialists on geospatial data integration.
+              Building web and mobile applications using React.js and React Native.
+              Integrating APIs, improving performance, and managing state using Redux
+              and Context API within Agile teams.
             </p>
           </VerticalTimelineElement>
+
+          {/* Penta-b */}
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="June 2023 - Dec 2023"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            date="Dec 2023 - Jul 2025"
+            iconStyle={{ background: '#5000ca', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Frontend developer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Remote</h4>
+            <h3 className="vertical-timeline-element-title">
+              Frontend Developer
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Penta-b | Nasr City, Cairo
+            </h4>
             <p>
-            Developed React Native mobile application, collaborating with designers and backend developers.
+              Developed scalable front-end solutions and custom plugins.
+              Collaborated with GIS specialists to integrate geospatial data,
+              managed state with Redux, and maintained clean, responsive UI.
             </p>
           </VerticalTimelineElement>
+
+          {/* Diploma instead of "intern" */}
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="Jan 2023 - Aug 2023"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            iconStyle={{ background: '#5000ca', color: '#fff' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Frontend Developer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Cairo, Egypt</h4>
+            <h3 className="vertical-timeline-element-title">
+              Frontend Intern
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Eraa Soft | EL-Dokki
+            </h4>
             <p>
-            Contributing to the full SDLC and learning best practices
+              Intensive training in frontend development covering HTML, CSS,
+              JavaScript, and React. Built real-world projects and learned
+              best practices in UI development.
             </p>
           </VerticalTimelineElement>
+
         </VerticalTimeline>
       </div>
     </div>
