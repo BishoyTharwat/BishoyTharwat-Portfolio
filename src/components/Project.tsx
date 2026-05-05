@@ -1,4 +1,3 @@
-import React from "react";
 import coligoWeb from '../assets/images/coligo-web.png';
 import coligoMobile from '../assets/images/coligo-mobile.png';
 import drjones from '../assets/images/dr-jones.png';

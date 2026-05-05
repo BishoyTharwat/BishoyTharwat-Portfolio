@@ -30,9 +30,12 @@ const frontendLabels = [
 ];
 
 const backendLabels = ["Node.js", "Express", "MongoDB", "SQL", "RESTful APIs"];
-
+type TechIconProps = {
+  icon: React.ReactNode;
+  name: string;
+};
 function Expertise() {
-  const TechIcon = ({ icon, name }) => (
+  const TechIcon = ({ icon, name }: TechIconProps) => (
     <div className="tech-icon">
       {icon}
       <span>{name}</span>
