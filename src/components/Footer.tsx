@@ -5,10 +5,10 @@ import '../assets/styles/Footer.scss'
 function Footer() {
   return (
     <footer>
-      {/* <div>
+      <div>
         <a href="https://github.com/BishoyTharwat" target="_blank" rel="noreferrer"><GitHubIcon/></a>
         <a href="https://www.linkedin.com/in/bishoy-tharwat/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
-      </div> */}
+      </div> 
       <p>A portfolio designed & built by <a href="https://www.linkedin.com/in/bishoy-tharwat/" target="_blank" rel="noreferrer">Bishoy Tharwat</a></p>
     </footer>
   );

@@ -5,7 +5,6 @@ import {
   Expertise,
   Contact,
   Navigation,
-  Footer,
   Project
 } from "./components";
 import FadeIn from './components/FadeIn';
